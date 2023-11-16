@@ -32,7 +32,7 @@ function App() {
                 <div className="homeSecondLineFirstDiv"></div>
                 <div className="homeSecondLineSecondDiv"></div>
                 <div className="homeSecondLineThirdDiv"></div>
-                <img src="https://learnzoomy.wuaze.com/wp-content/uploads/2023/11/image-of-happy-asian-woman-reading-message-on-mobi-FKGGSJ9-e1650561666821-1.png" alt="" />
+                <img src="https://img.freepik.com/premium-photo/charming-young-man-casual-clothing-using-smart-phone-smiling-while-standing_425904-4716.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699747200&semt=ais" alt="" />
                 <div className="homeSecondLineStudentsDiv">
                     {/* <img src="" alt="" /> */}
                     <div>
