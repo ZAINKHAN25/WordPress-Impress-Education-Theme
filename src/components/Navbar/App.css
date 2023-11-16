@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: #421efe;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbtnarea span{
+    margin: 0 5px; 
+    cursor: pointer;
+}
+
+.brandName{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.buttonAreaNav button{
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+    transition: all .4s;
+    font-weight: 700;
+}
+
+.buttonAreaNav button:hover{
+    background-color: white;
+    color: #421efe;
+}
