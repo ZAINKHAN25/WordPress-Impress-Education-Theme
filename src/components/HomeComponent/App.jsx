@@ -38,17 +38,17 @@ function App() {
                         <img src={personUsingImage} alt="" className='personUsingImageHome' />
                     </div>
                 </div>
-                <div className="homeSecondLineStudentsDiv">
+                <div className="homeSecondLineStudentsDiv py-2 px-5">
                     {/* <img src="" alt="" /> */}
-                    <div>
-                        <h4>1000+</h4>
+                    <div className='d-flex'>
+                        <h4 className='me-2'>1000+</h4>
                         <p>students</p>
                     </div>
                 </div>
-                <div className="homeSecondLineCoursesDiv">
+                <div className="homeSecondLineCoursesDiv py-2 px-5">
                     {/* <img src="" alt="" /> */}
-                    <div>
-                        <h4>100+</h4>
+                    <div className='d-flex'>
+                        <h4 className='me-2'>100+</h4>
                         <p>courses</p>
                     </div>
                 </div>

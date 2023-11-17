@@ -104,3 +104,33 @@
     background-color: #421cff;
     z-index: 1;
 }
+
+.homeSecondLineStudentsDiv{
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    right: 20%;
+    z-index: 5;
+}
+
+.homeSecondLineCoursesDiv{
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    left: 20%;
+    z-index: 5;    
+}
+
+.homeSecondLineStudentsDiv div, .homeSecondLineCoursesDiv div{
+    align-items: center;
+}
+
+.homeSecondLineStudentsDiv div p, .homeSecondLineStudentsDiv div h4, .homeSecondLineCoursesDiv div p, .homeSecondLineCoursesDiv div h4{
+    margin: 0;
+}
