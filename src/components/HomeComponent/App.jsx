@@ -1,4 +1,6 @@
-import './App.css'
+import './App.css';
+
+import personUsingImage from '../../assestsTwo/Person Using Phone png.png'
 
 function App() {
     return (
@@ -18,10 +20,10 @@ function App() {
                 <div className="satisfyDivHome">
                     <div>
                         {/* image will be come here */}
-                        <img src="https://img.freepik.com/free-photo/cheerful-student-writing-holding-books_1098-3439.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699920000&semt=ais" alt=""/>
-                        <img src="https://cdn.create.vista.com/api/media/small/363269564/stock-photo-young-girl-kid-student-touching-glasses-looking-camera-wearing-degree" alt=""/>
-                        <img src="https://img.freepik.com/premium-photo/portrait-asian-school-boy-born-blue-background_466494-3280.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699401600&semt=ais" alt=""/>
-                        <img src="https://img.freepik.com/premium-photo/schoolchild-teenage-student-girl-with-school-bag-backpack-hold-book-yellow-isolated-studio-background-children-school-education-concept-shocked-surprised-teenager-girl_545934-26019.jpg" alt=""/>
+                        <img src="https://img.freepik.com/free-photo/cheerful-student-writing-holding-books_1098-3439.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699920000&semt=ais" alt="" />
+                        <img src="https://cdn.create.vista.com/api/media/small/363269564/stock-photo-young-girl-kid-student-touching-glasses-looking-camera-wearing-degree" alt="" />
+                        <img src="https://img.freepik.com/premium-photo/portrait-asian-school-boy-born-blue-background_466494-3280.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699401600&semt=ais" alt="" />
+                        <img src="https://img.freepik.com/premium-photo/schoolchild-teenage-student-girl-with-school-bag-backpack-hold-book-yellow-isolated-studio-background-children-school-education-concept-shocked-surprised-teenager-girl_545934-26019.jpg" alt="" />
                     </div>
                     <div>
                         1000+ Satisfied students
@@ -30,9 +32,12 @@ function App() {
             </div>
             <div className="secondLineHome position-relative">
                 <div className="homeSecondLineFirstDiv"></div>
-                <div className="homeSecondLineSecondDiv"></div>
-                <div className="homeSecondLineThirdDiv"></div>
-                <img src="https://img.freepik.com/premium-photo/charming-young-man-casual-clothing-using-smart-phone-smiling-while-standing_425904-4716.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699747200&semt=ais" alt="" />
+                <div className="homeSecondLineThirdDiv">
+                    <div className="homeSecondLineSecondDiv"></div>
+                    <div className='divofhomemainimage'>
+                        <img src={personUsingImage} alt="" className='personUsingImageHome' />
+                    </div>
+                </div>
                 <div className="homeSecondLineStudentsDiv">
                     {/* <img src="" alt="" /> */}
                     <div>

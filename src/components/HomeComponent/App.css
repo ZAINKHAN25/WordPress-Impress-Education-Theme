@@ -66,3 +66,41 @@
     object-fit: cover;
     margin-left: -10px;
 }
+
+.personUsingImageHome{
+    object-fit: cover;
+    margin-left: -18%;
+    z-index: 3;
+}
+
+.homeSecondLineFirstDiv{
+    position: absolute;
+    top:  10%;
+    right: 80%;
+    width: 10%;
+    height: 15%;
+    background-color: #1078f1;
+    border-radius: 50%;
+}
+
+.homeSecondLineSecondDiv{
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    width: 65%;
+    height: 70%;
+    background-color: #ff6400;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.homeSecondLineThirdDiv{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    width: 70%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #421cff;
+    z-index: 1;
+}
